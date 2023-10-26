@@ -1,0 +1,90 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    color: white;
+    padding: 20px;
+    background: #151c39e8;
+    box-sizing: border-box;
+}
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-section {
+    padding: 100px 0;
+    background: url("images/banner-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.banner-description {
+    text-align: center;
+    color: white;
+}
+
+.cards-section {
+    padding: 50px 0px;
+}
+
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    width: 25%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #9e90ff;
+    text-align: center;
+}
+
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-button {
+    text-align: center;
+    background: #151c39;
+    border-radius: 10px;    
+
+}
+
+.cards {
+    display: inline-block;
+    width: 25px;
+    margin: 0px 45px;
+
+}
+
+.footer{
+    background: url(images/footer-bg.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.copyright {
+    color: white;
+}
