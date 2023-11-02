@@ -50,17 +50,22 @@
     padding: 50px 0px;
 }
 
-.cards {
+/* .cards {
     display: inline-block;
     width: 80px;
     margin: 0px 100px;
 
+} */
+
+.cards-title, .cards-description {
+    color: #151c39;
+    text-align: center;
 }
 
 .card {
     padding: 25px;
     margin-top: 25px;
-    width: 100%;
+    width: 25%;
     background: white;
     box-shadow: 0px 2px 7px 0px #9e90ff;
     text-align: center;
@@ -70,14 +75,19 @@
 .card-link {
     text-decoration: none;
     color: white;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .card-button {
     text-align: center;
     background: #151c39;
+    padding: 10px 70px;
     border-radius: 10px;    
 
+}
+
+.cart-title, .card-text {
+    margin-bottom: 10px;
 }
 
 
